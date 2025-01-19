@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AgilSoft GmbH Intranet</title>
+</head>
+<body>
+    <header>
+        <h1>AgilSoft GmbH Intranet</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#start">Start</a></li>
+            <li><a href="#personal">Persönliches</a></li>
+            <li><a href="#it-support">IT-Support</a></li>
+            <li><a href="#workstations">Workstations</a></li>
+            <li><a href="#tickets">Ticketsystem</a></li>
+            <li><a href="#employees">Mitarbeiter</a></li>
+            <li><a href="#developers">Entwickler</a></li>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#impressum">Impressum</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <section id="start">
+                <h2>Start</h2>
+                <p>Willkommen beim Intranet der AgilSoft GmbH!</p>
+            </section>
+
+            <section id="personal">
+                <h2>Persönliches</h2>
+                <p>Hier finden Sie persönliche Informationen und Anpassungsmöglichkeiten.</p>
+            </section>
+
+            <section id="it-support">
+                <h2>IT-Support</h2>
+                <p>Unterstützung für Ihre technischen Anliegen.</p>
+            </section>
+
+            <section id="workstations">
+                <h2>Workstations</h2>
+                <p>Informationen zu verfügbaren konfigurierten PCs.</p>
+            </section>
+
+            <section id="tickets">
+                <h2>Ticketsystem</h2>
+                <form class="ticket-form">
+                    <h3>Neues Ticket</h3>
+                    <label for="title">Titel:</label>
+                    <input type="text" id="title" name="title">
+
+                    <label for="description">Text:</label>
+                    <textarea id="description" name="description" rows="5"></textarea>
+
+                    <label for="status">Status:</label>
+                    <select id="status" name="status">
+                        <option value="normal">Normal</option>
+                        <option value="urgent">Dringend</option>
+                    </select>
+
+                    <label for="type">Art des Tickets:</label>
+                    <select id="type" name="type">
+                        <option value="anfrage">Anfrage</option>
+                        <option value="stoerung">Störung</option>
+                        <option value="idee">Idee</option>
+                        <option value="beschaffung">Beschaffung</option>
+                    </select>
+
+                    <button type="submit">Absenden</button>
+                </form>
+            </section>
+
+            <section id="employees">
+                <h2>Mitarbeiter</h2>
+                <ul>
+                    <li>Max Mustermann</li>
+                    <li>Erika Beispiel</li>
+                    <li>John Doe</li>
+                </ul>
+            </section>
+
+            <section id="developers">
+                <h2>Entwickler</h2>
+                <h3>Code Styleguides</h3>
+                <p>Hier können Sie Code-Richtlinien für Projekte einsehen.</p>
+
+                <h3>Vorgehensmodelle</h3>
+                <p>SCRUM ist ein agiles Framework für Projektmanagement...</p>
+            </section>
+
+            <section id="software">
+                <h2>Software</h2>
+                <h3>Entwicklungstools</h3>
+                <p>Eine Liste der empfohlenen Tools:</p>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Git</li>
+                    <li>Docker</li>
+                </ul>
+
+                <h3>Dateisystem-Befehle</h3>
+                <table border="1">
+                    <tr>
+                        <th>Befehl</th>
+                        <th>Beschreibung</th>
+                    </tr>
+                    <tr>
+                        <td>ls</td>
+                        <td>Listet Dateien und Verzeichnisse auf</td>
+                    </tr>
+                    <tr>
+                        <td>cd</td>
+                        <td>Wechselt das Verzeichnis</td>
+                    </tr>
+                    <tr>
+                        <td>mkdir</td>
+                        <td>Erstellt ein neues Verzeichnis</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="impressum">
+                <h2>Impressum</h2>
+                <p>AgilSoft GmbH<br>
+                    Musterstraße 123<br>
+                    12345 Musterstadt<br>
+                    Tel: +49 123 456 7890<br>
+                    E-Mail: info@agilsoft.de</p>
+            </section>
+        </div>
+
+        <aside>
+            <h3>Funktionen</h3>
+            <ul>
+                <li>Suche</li>
+                <li>IT-Störung melden</li>
+                <li>Anmelden/Abmelden</li>
+                <li>Unternehmensänderungen</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        &copy; 2025 AgilSoft GmbH. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
+    
